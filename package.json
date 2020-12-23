@@ -1,0 +1,16 @@
+{
+  "name": "corona",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app1.js",
+  "dependencies": {
+    "jest": "^26.6.3",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC"
+}

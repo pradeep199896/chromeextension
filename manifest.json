@@ -1,0 +1,28 @@
+
+  {
+  "name": "generating corona data",
+  
+  "version": "1.0",
+  
+  "description": "This Chrome extension show new corona cases the user each time they open a new tab",
+  
+  "manifest_version": 2,
+
+  "incognito": "split",
+  
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "css": ["style.css"],
+      "js": ["jquery.js", "app1.js"]
+    }
+  ],
+  
+  "permissions": [
+     "activeTab"
+   ]
+}
+
